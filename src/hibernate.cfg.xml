@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="">
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+        <property name="hibernate.connection.password">PRUEBAH</property>
+        <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+        <property name="hibernate.connection.username">PRUEBAH</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping class="entidad.Token" />
+        <mapping class="entidad.Pago" />
+        <mapping class="entidad.Pais" />
+        <mapping class="entidad.Usuario" />
+        <mapping class="entidad.UsuarioDetalle" />
+        <mapping class="entidad.Rol" />
+        <mapping class="entidad.Directorio" />
+        <mapping class="entidad.Factura" />
+        <mapping class="entidad.Moneda" />
+        <mapping class="entidad.Credito" />
+        <mapping class="entidad.UsuarioMoneda" />
+    </session-factory>
+</hibernate-configuration>

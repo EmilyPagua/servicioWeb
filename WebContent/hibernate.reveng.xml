@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="PRUEBAH" match-name="CREDITO"/>
+  <table-filter match-schema="PRUEBAH" match-name="DIRECTORIO"/>
+  <table-filter match-schema="PRUEBAH" match-name="FACTURA"/>
+  <table-filter match-schema="PRUEBAH" match-name="MONEDA"/>
+  <table-filter match-schema="PRUEBAH" match-name="PAGO"/>
+  <table-filter match-schema="PRUEBAH" match-name="PAIS"/>
+  <table-filter match-schema="PRUEBAH" match-name="ROL"/>
+  <table-filter match-schema="PRUEBAH" match-name="TOKEN"/>
+  <table-filter match-schema="PRUEBAH" match-name="USUARIO"/>
+  <table-filter match-schema="PRUEBAH" match-name="USUARIO_DETALLE"/>
+  <table-filter match-schema="PRUEBAH" match-name="USUARIO_MONEDA"/>
+</hibernate-reverse-engineering>
